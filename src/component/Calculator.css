@@ -1,0 +1,149 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-heigth: 0.5;
+  background: linear-gradient(to left, #091a31, #ff8974);
+}
+.calculator {
+  /* border: 1px solid rgb(133, 130, 130); */
+  display: flex;
+  flex-direction: row;
+  /* overflow: hidden; */
+  width: 60%;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+
+  /* width: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  transition: 0.25px;
+  text-align: center; */
+}
+
+.heading {
+  width: 72%;
+  font-size: 80px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: aliceblue;
+}
+
+.calculator_wrapper {
+  /* border: 1px solid black; */
+  width: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  transition: 0.25px;
+  text-align: center;
+}
+.result {
+  border: none;
+  background: rgb(253, 253, 253);
+  border-radius: 30px;
+  width: 145;
+  padding-top: 5px;
+  font-size: 20px;
+  font-family: cambria;
+  font-weight: 300;
+  height: 70;
+  margin: auto;
+  border: 2px solid white;
+  color: black;
+}
+
+.keys-numbers {
+  width: 45px;
+  height: 35px;
+  padding-top: -1;
+  background: white;
+  border: none;
+  font-family: cambria;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 30px;
+  margin: 2px;
+}
+
+.keys-numbers:hover {
+  background: rgb(182, 179, 179);
+}
+
+.key-zero {
+  width: 45px;
+  height: 35px;
+  padding-top: -1;
+  border: none;
+  font-family: cambria;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 30px;
+  margin: 1.5;
+  background: #ff8974;
+  margin: 2px;
+}
+.key-zero:hover {
+  background: #f1674e;
+}
+
+.keys-operators {
+  width: 35px;
+  height: 35px;
+  background: #ff8974;
+  padding-top: -1;
+  border: none;
+  font-family: cambria;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 30px;
+  margin: 1.5;
+  transition: 0.25px;
+  cursor: pointer;
+  margin: 6px;
+}
+.keys-operators:hover {
+  background: #f1674e;
+}
+
+.keys-function {
+  width: 45px;
+  height: 35px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background: #ff8974;
+  border: none;
+  font-family: cambria;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 30px;
+  margin: 5px 0;
+}
+.keys-function:hover {
+  background: #f1674e;
+}
+.equals {
+  width: 75px;
+  height: 35px;
+}
+
+.key-dot {
+  background: #ff8974;
+}
+.keys-dot:hover {
+  background: #f1674e;
+}
